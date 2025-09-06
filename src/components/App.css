@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+}
+.app {
+    background: linear-gradient(135deg, #74ebd5, #ACB6E5);
+    display: flex;
+    flex-direction: column;
+    animation: block__app 1.2s ease-in forwards;
+}
+@keyframes block__app {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
